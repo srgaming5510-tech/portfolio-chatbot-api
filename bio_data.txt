@@ -1,0 +1,74 @@
+# SAAD ALI HAMID - COMPREHENSIVE PROFESSIONAL BIO
+
+## PERSONAL INFORMATION
+- **Full Name:** Saad Ali Hamid
+- **Title:** Python Developer | AI & Automation Specialist | ML Engineer
+- **Email:** officialsaadali685@gmail.com
+- **Phone:** +92 328 104 5735
+- **Location:** Lahore, Punjab, Pakistan
+- **LinkedIn:** linkedin.com/in/saad-ali-hamid-b96082302
+- **GitHub:** github.com/saadalihamid
+- **Current Status:** AI Automation Developer at Tkxel (Since Jan 2025)
+
+## SUMMARY
+Resourceful Python Developer and AI Automation Specialist currently shipping production AI tools at Tkxel while completing BSCS. I specialize in RAG chatbots, high-performance DuckDB pipelines (handling millions of records), and web automation. Successfully secured professional employment during undergraduate studies — a testament to practical skill and drive. Recognized with a Shahbaz Sharif Laptop Scheme award for technical excellence.
+
+## KEY STATISTICS
+- 12+ Projects Shipped
+- 3+ Industry Certifications
+- 300+ Hours of ML Training
+- 1+ Year of Industry Experience
+
+## WORK EXPERIENCE
+
+### AI Automation Developer | Tkxel, Lahore, Pakistan (Jan 2025 – Present)
+*Role: Building AI-powered and data automation tools serving real business workflows at scale.*
+- **RAG-based Chatbot with Ollama:** Designed local-first conversational AI answering queries from user-uploaded files via Retrieval-Augmented Generation.
+- **High-Performance Search Tool:** DuckDB-powered engine converting data to Parquet, filtering millions of records at lightning speed.
+- **Email Verification API:** Production-ready FastAPI REST service for email validation at scale.
+- **Million-Record Lookup Tool:** Excel VLOOKUP alternative on DuckDB, queries millions of rows in seconds.
+- **Web Scraping Automation:** Intelligent browser extension for structured data extraction.
+- **Lead Persona Range Tool:** Full Streamlit app converting job titles into lead personas using DuckDB.
+
+### Data Science Intern | JTech Solution & Academy, Remote (May 2024 – Jan 2025)
+*Role: Gained foundational industry experience in data engineering and ML.*
+- Developed data cleaning and ETL pipelines using Python (pandas, NumPy).
+- Built interactive Streamlit dashboards for real-time business metrics.
+- Trained and evaluated ML models (Logistic Regression, Decision Trees).
+- Implemented SEO data analysis scripts to track website performance.
+
+## EDUCATION
+- **Bachelor of Science in Computer Science (BSCS):** 8th Semester (ENROLLED) at Muhammad Nawaz Sharif University of Engineering and Technology (MNS-UET), Multan.
+- **FSC Pre-Engineering:** PAEC Model College Chowk Girote, Jauharabad.
+- **Matriculation:** PAEC Model School Chowk Girote, Jauharabad.
+
+## TECHNICAL SKILLS
+- **Languages & Frameworks:** Python (95%), FastAPI (88%), Streamlit (90%), Selenium (82%), Scrapy (80%).
+- **AI & Machine Learning:** LangChain / RAG (88%), Ollama LLM (85%), scikit-learn (90%), Neural Networks (80%), Model Evaluation (87%).
+- **Data Engineering:** DuckDB (92%), Parquet (88%), pandas & NumPy (93%), ETL Pipelines (85%).
+- **Algorithms:** Random Forest, Logistic Regression, KNN, Decision Trees, CNN/Deep Learning.
+- **Tools:** Git & GitHub, Jupyter, REST API Design, Browser Automation, VS Code.
+
+## PROJECTS
+- **RAG Chatbot with Ollama:** AI for document Q&A using LangChain and Ollama.
+- **High-Performance Search Tool (DuckDB):** Blazing fast search and Parquet ingestion.
+- **Email Verification API:** High-throughput FastAPI validation service.
+- **Million-Record Lookup Tool:** DuckDB-powered replacement for VLOOKUP.
+- **Lead Persona Range Tool:** AI app for persona and content generation.
+- **Customer Churn Prediction:** 82% accuracy ML model with live Streamlit app.
+- **Cat & Dog Image Classifier:** CNN deep learning classifier.
+- **Book Recommendation Engine:** KNN collaborative filtering.
+- **Neural Network SMS Classifier:** NLP spam/ham detection.
+
+## CERTIFICATIONS
+- **Machine Learning with Python:** freeCodeCamp (March 2026) - ID: fcc-31e6e5c8-4422-4f93-8de8-882fe9a6809d
+- **AI with Machine Learning:** Zynex Solutions (January 2026) - ID: ZS-2568-0863
+- **Certified Data Science Practitioner:** JTech Solutions (Sep 2024) - Cert No: OS2-9-1
+- **Machine Learning Specialization:** Coursera (2024)
+- **Deep Learning Fundamentals:** Ongoing
+
+## AWARDS & ACHIEVEMENTS
+- **Employed During Degree:** Secured AI role at Tkxel while still in university.
+- **12+ Production Projects:** Shipped real-world AI and automation tools.
+- **Shahbaz Sharif Laptop Award:** Awarded by MNS-UET for academic and technical excellence.
+- **Production-Grade RAG/DuckDB:** Successfully deployed tools handling millions of records.
