@@ -35,6 +35,9 @@ app.add_middleware(
 # Global variables for the RAG chain
 qa_chain = None
 
+# Use /tmp for writable storage on HF Spaces, otherwise current directory
+DB_PATH = "/tmp/leads.db" if os.path.exists("/tmp") and not os.name == "nt" else "leads.db"
+
 # Custom Prompt Template for Saad's Portfolio
 template = """You are Saad Ali Hamid's Personal AI Portfolio Assistant. 
 You are friendly, professional, and very knowledgeable about Saad's background, projects, and skills.
@@ -100,12 +103,12 @@ async def startup_event():
     print("RAG components initialized successfully.")
     
     # Initialize leads database
-    conn = sqlite3.connect('leads.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("CREATE TABLE IF NOT EXISTS leads (id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL)")
     conn.commit()
     conn.close()
-    print("Leads database initialized.")
+    print(f"Leads database initialized at {DB_PATH}.")
 
 # Route models
 class ChatRequest(BaseModel):
@@ -120,7 +123,7 @@ class EmailRequest(BaseModel):
 @app.post("/save-email")
 async def save_email(request: EmailRequest):
     try:
-        conn = sqlite3.connect('leads.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         cursor.execute("INSERT INTO leads (email) VALUES (?)", (request.email,))
         conn.commit()
