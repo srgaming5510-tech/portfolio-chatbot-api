@@ -1,0 +1,20 @@
+# Portfolio AI Chatbot - How to Run
+
+1. **Setup Environment** (Only first time):
+   If you haven't installed requirements:
+   - Command: `.venv\Scripts\pip install -r requirements.txt`
+
+2. **Run the Project**:
+   - Double click the `run_me.bat` file.
+   - It will start the backend in a separate terminal.
+   - It will wait for ~15 seconds to load the AI models.
+   - It will automatically open `http://localhost:8080` in your browser.
+
+3. **How to use**:
+   - The chatbot will first ask for your **Email**.
+   - After you enter your email, it will be saved in `leads.db`.
+   - Then you can start asking questions about Saad.
+
+4. **Troubleshooting**:
+   - If the chatbot stays on "connecting...", check the backend terminal for errors.
+   - Make sure you have `GROQ_API_KEY` in your `.env` file.
